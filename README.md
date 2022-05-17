@@ -4,6 +4,7 @@ Script.ly is a script analysis tool for public speakers to analyze their uploade
 [Live Link](http://getscriptly.com/)
 ## Tech Stack
 Script.ly is built on **Next.js**, **React**, and **JavaScript**. Script.ly also uses **CSS Modules**, **Material UI**, **Three.js**, and **Recharts** for most of the styling. Additionally, Script.ly uses **Axios** to make calls to **IBM Watson API** for Natural Language Processing to analyze the emotional context of the text that a user uploads or records. **Three.js** and **Blender** are used to generate the 3D model of the landing page of the application.
+
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
