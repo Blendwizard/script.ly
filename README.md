@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Speak with Confidence - Speak with Script.ly
+## Summary
+Script.ly is a script analysis tool for public speakers to analyze their uploaded or recorded speech or script for the emotions they can convey. Users can also practice with their uploaded scripts by choosing a role and having a text to speech option.
+[Live Link](http://getscriptly.com/)
+## Tech Stack
+Script.ly is built on **Next.js**, **React**, and **JavaScript**. Script.ly also uses **CSS Modules**, **Material UI**, **Three.js**, and **Recharts** for most of the styling. Additionally, Script.ly uses **Axios** to make calls to **IBM Watson API** for Natural Language Processing to analyze the emotional context of the text that a user uploads or records. **Three.js** and **Blender** are used to generate the 3D model of the landing page of the application.
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
+![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
+![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+## Features
+### Landing Page
 
-## Getting Started
+![landing](https://media.giphy.com/media/Z6GZgQeElCKorCNMKd/giphy.gif)
 
-First, run the development server:
+### Upload
+One of the main features of Script.ly is the ability for users to upload a text file of their script or speech. After uploading, the user has the ability to make any edits before clicking the Analyze button, which will send a request to IBM Watson API for NLP to analyze the emotional context of the text categorized into sadness, joy, fear, disgust, and anger, or the Practice button, which will allow users to practice playing a role in the script with text-to-speech.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![upload](https://media.giphy.com/media/pHiDJ3TrwBKNPJPxxR/giphy.gif)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Record
+Another main feature of Script.ly is to allow users to record their speech by speaking into the microphone of their device with the **Speech Recognition API**. After recording their speech, the user can go through the same process of editing and analyzing.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![record](https://media.giphy.com/media/ME8rhO34WkvV6zpG9n/giphy.gif)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Practice
+The user also has the ability to practice their uploaded script. Script.ly parses the text and allows users the select a role that they would want to play. Script.ly will then use text-to-speech generated with the **Speech Synthesis API** to read the lines either by clicking the Next Line Button or the line itself in the script.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![practice](https://media.giphy.com/media/hLkBrqv8isC7cy1lsT/giphy.gif)
 
-## Learn More
+## Technical Challenges
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Implementations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributors
+<li>Minggui Yactayo - https://github.com/9gramsof</li>
+<li>Joe Van Camp - https://github.com/Blendwizard</li>
+<li>Shloka Reddy - https://github.com/shlokar</li>
+<li>Julian Tam - https://github.com/jutam653</li>
+<li>Sabas Segovia - https://github.com/sabassegovia</li>
+<li>Maher Damouni - https://github.com/maherDamouni</li>
+<li>Charlie Bailey - https://github.com/charliebailey24</li>
+<li>Clover Hong - https://github.com/JiaxunCloverHong</li>
